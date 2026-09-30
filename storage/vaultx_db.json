@@ -1,0 +1,1331 @@
+{
+  "users": {
+    "usr_1790751152806_JLPnHjmvuag": {
+      "id": "usr_1790751152806_JLPnHjmvuag",
+      "name": "hey",
+      "email": "hello@gmail.com",
+      "passwordHash": "pbkdf2$100000$d1d47642f431f5c71cd2058173e4bb15$2d0cb764d52a0d45d3c2f32b026a729e824babd865a371f27ec7287b8678c401ab92dddbbe96880aaf7aac00c5ba44166e9515d006babffcda18d1c61586aed5",
+      "verified": true,
+      "createdAt": 1790751152869
+    },
+    "usr_1790751208958_PjMn6NEFgBs": {
+      "id": "usr_1790751208958_PjMn6NEFgBs",
+      "name": "Bharath S B",
+      "email": "sbbharath81@gmail.com",
+      "passwordHash": "pbkdf2$100000$363f2763e9c665700bc56682aa510575$4676636dd7259af0d1f56b8bd6dfd4743d2bbba923a2bba44864d7af859c0e7e2c5fd315ac86a974d4bbfd4acd4aab432141cf12ebbd8862dd57c96a153b5b60",
+      "verified": true,
+      "createdAt": 1790751209024
+    },
+    "usr_1790752145853_cIAehWz8Lek": {
+      "id": "usr_1790752145853_cIAehWz8Lek",
+      "name": "hey",
+      "email": "aa@gmail.com",
+      "passwordHash": "pbkdf2$100000$73b00a24707ea1efe9bb8959b8c09cd6$f6fea1e236a0f54b46ab684b3714371cd994492ba7d37fc884c38d1e817ae2dc83ed99a324e56218f4b380a7a25b93e2cad2ac9837528ea5076e74cb995f122d",
+      "verified": true,
+      "createdAt": 1790752145918
+    },
+    "usr_g_1790759667637_AQ4Tgz2D": {
+      "id": "usr_g_1790759667637_AQ4Tgz2D",
+      "name": "Alice Receiver",
+      "email": "receiver_demo@example.com",
+      "passwordHash": "pbkdf2$100000$95ca5bf20bb620e5a7a6d49860473f70$3d5cb9e9cba605a0fff4365f98936e97264bb2a56e8c507d6deef995406fab1d429038678270f6548042817d48ce45ab48213075ae40ce227124daf575a7043f",
+      "verified": true,
+      "createdAt": 1790759667701
+    }
+  },
+  "emailTokens": {
+    "9ded937c07925278e716b87d9d7bd58e7c2fd825d5a4e43e911593dc7ac74de1": {
+      "tokenHash": "9ded937c07925278e716b87d9d7bd58e7c2fd825d5a4e43e911593dc7ac74de1",
+      "rawTokenPreview": "PU5Q1TIKxdDp_urZ9rwVanDyMjAqLjMLMhioN6nlBqE",
+      "userId": "usr_1790751152806_JLPnHjmvuag",
+      "email": "hello@gmail.com",
+      "expiresAt": 1790837552869,
+      "used": true
+    },
+    "5a7318d7cd8d1567d7822929021cc3bacf6a520e76e8a67b4a15e32a833359f8": {
+      "tokenHash": "5a7318d7cd8d1567d7822929021cc3bacf6a520e76e8a67b4a15e32a833359f8",
+      "rawTokenPreview": "h0nPeLDl3cqkpbcKHrl7fWCzR1wd1zhBzrlwwkC2vqI",
+      "userId": "usr_1790751208958_PjMn6NEFgBs",
+      "email": "sbbharath81@gmail.com",
+      "expiresAt": 1790837609024,
+      "used": true
+    },
+    "dbaaf8c1774d844802bc469d690e197cb65834ff7219a30f4f354eec781576d1": {
+      "tokenHash": "dbaaf8c1774d844802bc469d690e197cb65834ff7219a30f4f354eec781576d1",
+      "rawTokenPreview": "kltcN73Cc32ZMNPip8eIe3Fcx7jMyum7B_TDHfH_4Bo",
+      "userId": "usr_1790752145853_cIAehWz8Lek",
+      "email": "aa@gmail.com",
+      "expiresAt": 1790838545919,
+      "used": true
+    }
+  },
+  "files": {
+    "file_sample_q3_report": {
+      "id": "file_sample_q3_report",
+      "originalName": "Confidential_Audit_Report.pdf",
+      "sanitizedName": "Confidential_Audit_Report.pdf",
+      "mimeType": "application/pdf",
+      "size": 286,
+      "encryptedStorageId": "EAJozNR2d7C3y0r1b0AAGw",
+      "sha256Original": "ef0e0733d111593021e6ba4f599d9e2e1356a9dc1bf0eed468f2e6fca498685a",
+      "sha256Encrypted": "70bf401c99283a6a57d2b3d3d2bd0b64984be217c13dfe46f8646d6d72fbd85d",
+      "iv": "b074cbc48521489120c789a1",
+      "authTag": "b62b3553545e19b793077e28c129fa86",
+      "fileKeyEncrypted": "2efc4109d5b3db498687a740:425103909431fe714b31876c8c1225e5:46551688c0a03dae4428b3169f76f918413123eab192818b19815369c038edef",
+      "version": 1,
+      "ownerId": null,
+      "createdAt": 1790746122121,
+      "updatedAt": 1790746122121
+    },
+    "file_1790750434137_PJUQcKCt7wc": {
+      "id": "file_1790750434137_PJUQcKCt7wc",
+      "originalName": "VaultX_Master_Build_Prompt_README.md",
+      "sanitizedName": "VaultX_Master_Build_Prompt_README.md",
+      "mimeType": "text/markdown",
+      "size": 31098,
+      "encryptedStorageId": "dkGSbK4HOGp0_SpeSFT64A",
+      "sha256Original": "5e433323d80272158d492595a36e8d069015a649d6602e1cfe25fe2701e4e6e9",
+      "sha256Encrypted": "affea99f3e214e2249911d26388382323ef6047a2540dbf39d5e1411b4549788",
+      "iv": "ff5338af4609125629a1cb64",
+      "authTag": "28979459b9dc7a0dd41179e87644a5b6",
+      "fileKeyEncrypted": "af306f7ef90309d6758b052d:6c7503d8788b8df136c7718e779d3f08:15fe8aa41c777fa39f7e86945d924ce7a514f11c10457eda702de9226c15b40b",
+      "version": 1,
+      "ownerId": null,
+      "createdAt": 1790750434137,
+      "updatedAt": 1790750434137
+    },
+    "file_1790750623712_f8VCahCekAE": {
+      "id": "file_1790750623712_f8VCahCekAE",
+      "originalName": "AA29Vp7J.jpeg",
+      "sanitizedName": "AA29Vp7J.jpeg",
+      "mimeType": "image/jpeg",
+      "size": 65536,
+      "encryptedStorageId": "MJ8gBQmraKEVYd5JV0hqqQ",
+      "sha256Original": "129602d6abad1ace2aa6319105a219cd88e18b66d1b56bdd082639565e3d1701",
+      "sha256Encrypted": "8c5889d5732e5aafc24611dc95d1ab17ecdfd41c8f4d94dbb3d2d00c2e6a9c9c",
+      "iv": "e5a8e4163330b731b860b67e",
+      "authTag": "92c7e7a6e37d91d1af8f91ca59ee37a0",
+      "fileKeyEncrypted": "a75691b38249b6626bd13ba3:58cc0b7723d468492ede0aeb24f44f40:6b61ba840a9f554f993e3fa4dc1c466cf0c6e231f554997b9859376f18e32170",
+      "version": 1,
+      "ownerId": null,
+      "createdAt": 1790750623712,
+      "updatedAt": 1790750623712
+    },
+    "file_1790750623758_locHUA0XKm4": {
+      "id": "file_1790750623758_locHUA0XKm4",
+      "originalName": "rudeus-greyrat.gif",
+      "sanitizedName": "rudeus-greyrat.gif",
+      "mimeType": "image/gif",
+      "size": 4619785,
+      "encryptedStorageId": "to2lX_-jiSk1pNpwe_ObkA",
+      "sha256Original": "3ec25dee828240b055313ab1317e9839ed5c3bcba7bf5058307102a72ff3ccb4",
+      "sha256Encrypted": "fecdafaf7d24dc91365df4513d4d61df9b04a86c6bc94a12c128583fa14c7600",
+      "iv": "61e35c3c095738f47e2991ca",
+      "authTag": "9fa513a14f74d69def290c016529c57f",
+      "fileKeyEncrypted": "3516bb86fcd70e86b8604f8d:712853d13e6a6ee6b40b5f2b00600ac4:4e49b1f801b1331fc0f2cf323a7fe04c4fb91a17dd855dfe36fe0cbca92e7dbe",
+      "version": 1,
+      "ownerId": null,
+      "createdAt": 1790750623758,
+      "updatedAt": 1790750623758
+    },
+    "file_1790751964739_PhHbOQ5T6NY": {
+      "id": "file_1790751964739_PhHbOQ5T6NY",
+      "originalName": "AA29Vp7J.jpeg",
+      "sanitizedName": "AA29Vp7J.jpeg",
+      "mimeType": "image/jpeg",
+      "size": 65536,
+      "encryptedStorageId": "1eA71auW57jvA6FieaH8vg",
+      "sha256Original": "129602d6abad1ace2aa6319105a219cd88e18b66d1b56bdd082639565e3d1701",
+      "sha256Encrypted": "0ed26a6232a301230a648fb24baf3a708ec6c506741a83833ac7f6d9aecaa17d",
+      "iv": "1e60fb04eac25af1dd34775f",
+      "authTag": "10919f17d5a21d02555ed6269dcb381a",
+      "fileKeyEncrypted": "f4effab81d2534d60d69bad2:a8187034033a91cbebed1218b60f105f:9b24f668c6e4a47a4dd1639ba82c105d2fbf6333a0d39cd918908b5806efdcc6",
+      "version": 1,
+      "ownerId": null,
+      "createdAt": 1790751964739,
+      "updatedAt": 1790751964739
+    },
+    "file_1790751965050_MomR0xPKvYo": {
+      "id": "file_1790751965050_MomR0xPKvYo",
+      "originalName": "AA29Vp7J.jpeg",
+      "sanitizedName": "AA29Vp7J.jpeg",
+      "mimeType": "image/jpeg",
+      "size": 65536,
+      "encryptedStorageId": "-WzEZ27R9WY4k1mEynbmkQ",
+      "sha256Original": "129602d6abad1ace2aa6319105a219cd88e18b66d1b56bdd082639565e3d1701",
+      "sha256Encrypted": "79459b9ddf410f486deadceb726ebfe81ae4a7ab463f5a6d7c47434b0c382542",
+      "iv": "6803adf2a485f9adca6c5702",
+      "authTag": "d52ac5c46fa8e334179365a4cc270173",
+      "fileKeyEncrypted": "248bd9a40be56ed878595b6a:94b2aed9e95eed9ac115d2d2b4544541:d1bc7a0f20583d754f019f127d10660efb3208df96da1285e9e343828151b618",
+      "version": 1,
+      "ownerId": null,
+      "createdAt": 1790751965050,
+      "updatedAt": 1790751965050
+    },
+    "file_1790756249084_LElNmu0Azy4": {
+      "id": "file_1790756249084_LElNmu0Azy4",
+      "originalName": "AA29Vp7J (1).jpeg",
+      "sanitizedName": "AA29Vp7J__1_.jpeg",
+      "mimeType": "image/jpeg",
+      "size": 65536,
+      "encryptedStorageId": "y5SnNRFRS7sH_y_3QA6N0A",
+      "sha256Original": "129602d6abad1ace2aa6319105a219cd88e18b66d1b56bdd082639565e3d1701",
+      "sha256Encrypted": "1c8d0aef3fb12337498c1f6ec1ba172437da2d9adf1f820cfe98b8466e0e5507",
+      "iv": "e8369f9e3e1393710ac28024",
+      "authTag": "e1997e9c2bdcd91a9fef342602eeb428",
+      "fileKeyEncrypted": "e23488be550f8bc8d9558d24:8fd2e0db5ba296853df76c581cbf966d:5d2ffb317643f9f1a5654745e4bdea4b5a596874516d5b323e9e542dee021cad",
+      "version": 1,
+      "ownerId": "usr_1790751208958_PjMn6NEFgBs",
+      "createdAt": 1790756249084,
+      "updatedAt": 1790756249084
+    },
+    "file_1790758441573_b3V_RVx16pk": {
+      "id": "file_1790758441573_b3V_RVx16pk",
+      "originalName": "rudeus-greyrat.gif",
+      "sanitizedName": "rudeus-greyrat.gif",
+      "mimeType": "image/gif",
+      "size": 4619785,
+      "encryptedStorageId": "c9SpLkub-AthIE0DVSDhTQ",
+      "sha256Original": "3ec25dee828240b055313ab1317e9839ed5c3bcba7bf5058307102a72ff3ccb4",
+      "sha256Encrypted": "72b2fdca148f86472824eefd412c867fd5bf80fb17c6228d28931237e8bc8ca9",
+      "iv": "8edcc458be12339eb9398b4a",
+      "authTag": "c72d04d154bbc2498f3c417b8b02bdba",
+      "fileKeyEncrypted": "3b8eab92f40692bba14c46cf:c1ac68e758937afb6ddf584620667dd8:a3769db9d0c1f3055d0417ca6e7e8234867a9301a69645c4c87772f76c209039",
+      "version": 1,
+      "ownerId": "usr_1790751208958_PjMn6NEFgBs",
+      "createdAt": 1790758441573,
+      "updatedAt": 1790758441573
+    },
+    "file_1790758693123_DYBN8hGfIrQ": {
+      "id": "file_1790758693123_DYBN8hGfIrQ",
+      "originalName": "VaultX_Master_Build_Prompt_README.md",
+      "sanitizedName": "VaultX_Master_Build_Prompt_README.md",
+      "mimeType": "text/markdown",
+      "size": 31098,
+      "encryptedStorageId": "Mrx1hQUzsgAxZc66o0gy4Q",
+      "sha256Original": "5e433323d80272158d492595a36e8d069015a649d6602e1cfe25fe2701e4e6e9",
+      "sha256Encrypted": "45c98696fa6f9a03be1df8cde41efa8c24ea0864ac60672c3cb4a89b56fc6bfa",
+      "iv": "86e9aa7785119cf1bfb8f497",
+      "authTag": "41f78748339f908158f867227d8e3bac",
+      "fileKeyEncrypted": "1bc0b406336c1152f975823d:8a11b1cc57a45d0be2275b7c9ddd6600:f9bf2589923fa638dfb98a153044b4f22c5e4066f65a4c13cc2c042a9cacd737",
+      "version": 1,
+      "ownerId": "usr_1790751208958_PjMn6NEFgBs",
+      "createdAt": 1790758693123,
+      "updatedAt": 1790758693123
+    }
+  },
+  "shares": {
+    "share_demo_audit": {
+      "id": "share_demo_audit",
+      "secureShareId": "demo-vault-2026",
+      "ownerId": null,
+      "status": "REVOKED",
+      "passwordHash": "pbkdf2$100000$595c98cf7bf2ca6eab6e9e4401a06ca8$83099f621237aaafe414f9e9da5f29cd05abf2eaefe4c0b9a90c8c8cab77c93a6da89a566a205e3b846010092b3bc388564899fdd5d60e668284004411da975b",
+      "maxDownloads": 15,
+      "downloadCount": 4,
+      "expiresAt": 1790836122185,
+      "requireOtp": false,
+      "deviceBinding": false,
+      "downloadNotifications": true,
+      "suspiciousAccessDetection": true,
+      "securityScore": 92,
+      "createdAt": 1790747922185,
+      "fileIds": [
+        "file_sample_q3_report"
+      ],
+      "revokedAt": 1790752066599
+    },
+    "test_limit_1790749742792": {
+      "id": "test_limit_1790749742792",
+      "secureShareId": "slug_1790749742792",
+      "status": "LIMIT_REACHED",
+      "maxDownloads": 2,
+      "downloadCount": 2,
+      "expiresAt": 1790753342792,
+      "requireOtp": false,
+      "deviceBinding": false,
+      "downloadNotifications": false,
+      "suspiciousAccessDetection": true,
+      "securityScore": 90,
+      "createdAt": 1790749742792,
+      "fileIds": []
+    },
+    "test_expired_1790749742793": {
+      "id": "test_expired_1790749742793",
+      "secureShareId": "slug_exp_1790749742793",
+      "status": "EXPIRED",
+      "maxDownloads": 10,
+      "downloadCount": 0,
+      "expiresAt": 1790749737793,
+      "requireOtp": false,
+      "deviceBinding": false,
+      "downloadNotifications": false,
+      "suspiciousAccessDetection": true,
+      "securityScore": 85,
+      "createdAt": 1790749732793,
+      "fileIds": []
+    },
+    "test_revoked_1790749742793": {
+      "id": "test_revoked_1790749742793",
+      "secureShareId": "slug_rev_1790749742793",
+      "status": "REVOKED",
+      "maxDownloads": 10,
+      "downloadCount": 0,
+      "expiresAt": 1790753342793,
+      "requireOtp": false,
+      "deviceBinding": false,
+      "downloadNotifications": false,
+      "suspiciousAccessDetection": true,
+      "securityScore": 95,
+      "createdAt": 1790749742793,
+      "revokedAt": 1790749742793,
+      "fileIds": []
+    },
+    "share_1790750477142_MXqkxlXOUHk": {
+      "id": "share_1790750477142_MXqkxlXOUHk",
+      "secureShareId": "wOOiQY0b2-WVk14lNpKkMg",
+      "ownerId": null,
+      "status": "REVOKED",
+      "passwordHash": "pbkdf2$100000$397032664aa02f71ffa8229514c559e7$839dab74d928c2ec32bd6b4f8a2aaccdba86b92c480352d3e541a5af92591b8f04b18a772e495d086eddbd1b9fec953602c26c306228dc33ca05dd013901049e",
+      "maxDownloads": 1,
+      "downloadCount": 1,
+      "expiresAt": 1790754077205,
+      "requireOtp": false,
+      "otpHash": null,
+      "deviceBinding": false,
+      "downloadNotifications": true,
+      "suspiciousAccessDetection": true,
+      "securityScore": 90,
+      "createdAt": 1790750477205,
+      "fileIds": [
+        "file_1790750434137_PJUQcKCt7wc"
+      ],
+      "revokedAt": 1790750544218
+    },
+    "share_1790750661700_jWznOZ71V2w": {
+      "id": "share_1790750661700_jWznOZ71V2w",
+      "secureShareId": "te5VZ9_KO4QUcZ5kR4lAdg",
+      "ownerId": null,
+      "status": "EXPIRED",
+      "passwordHash": "pbkdf2$100000$8b4a1d99fc4ce215a0b1e40cbd46c0be$0f53b89a95d57346f65ac6b0095a765b2b274b13434646e2c52602db3e53561ad00c080686510d31ccfd6eeac2c1c946a701675741723b3eff046576a82e72bd",
+      "maxDownloads": 5,
+      "downloadCount": 0,
+      "expiresAt": 1790754261766,
+      "requireOtp": false,
+      "otpHash": null,
+      "deviceBinding": false,
+      "downloadNotifications": true,
+      "suspiciousAccessDetection": true,
+      "securityScore": 90,
+      "createdAt": 1790750661766,
+      "fileIds": [
+        "file_1790750623712_f8VCahCekAE",
+        "file_1790750623758_locHUA0XKm4"
+      ]
+    },
+    "share_1790751983301_v-G6d33sXCQ": {
+      "id": "share_1790751983301_v-G6d33sXCQ",
+      "secureShareId": "ZKgPpEDbBunSXWdtAfC3dQ",
+      "ownerId": null,
+      "status": "LIMIT_REACHED",
+      "passwordHash": null,
+      "maxDownloads": 1,
+      "downloadCount": 1,
+      "expiresAt": 1790755583301,
+      "requireOtp": false,
+      "otpHash": null,
+      "deviceBinding": false,
+      "downloadNotifications": true,
+      "suspiciousAccessDetection": true,
+      "securityScore": 75,
+      "createdAt": 1790751983301,
+      "fileIds": [
+        "file_1790751965050_MomR0xPKvYo"
+      ]
+    },
+    "share_1790756265367_gImpQKrhtwo": {
+      "id": "share_1790756265367_gImpQKrhtwo",
+      "secureShareId": "V-24GAHG6ZyWZc6oVpzAUA",
+      "ownerId": "usr_1790751208958_PjMn6NEFgBs",
+      "status": "REVOKED",
+      "passwordHash": "pbkdf2$100000$992a488954df36dc27c513413e8b56e1$3a3bc45faaaa88048c09e8314a29ed2f9179fdd6c947b0400865c7b0cdb05278a1346a0f9d54c658c07e3604128242fcb4a1f1c4c0191f850712e35bf0ec012a",
+      "maxDownloads": 15,
+      "downloadCount": 1,
+      "expiresAt": 1790842665430,
+      "requireOtp": true,
+      "otpHash": "64a096b95284bcb8feae2cc3b9e76fe2cbbd4fb51da303bf6d7851c18cf5e358",
+      "otpCodePreview": "505358",
+      "deviceBinding": false,
+      "downloadNotifications": true,
+      "suspiciousAccessDetection": true,
+      "securityScore": 95,
+      "createdAt": 1790756265430,
+      "fileIds": [
+        "file_1790756249084_LElNmu0Azy4"
+      ],
+      "revokedAt": 1790756483534
+    },
+    "share_1790758476775_geiEjSacxGw": {
+      "id": "share_1790758476775_geiEjSacxGw",
+      "secureShareId": "Ljws2J_s5FNx5ElAwABRBQ",
+      "ownerId": "usr_1790751208958_PjMn6NEFgBs",
+      "status": "LIMIT_REACHED",
+      "passwordHash": "pbkdf2$100000$8caf0fbe46b707f337edc6e2ef0cca06$68a414bac6f6735938c1eda829143d3a09a7c84cbd958195bf4c1d022789be41f00e3df743d587c0105d6cc476074f29be275d1a428bd7987875a3b88efa336e",
+      "maxDownloads": 1,
+      "downloadCount": 1,
+      "expiresAt": 1790762076838,
+      "requireOtp": false,
+      "otpHash": null,
+      "deviceBinding": false,
+      "downloadNotifications": true,
+      "suspiciousAccessDetection": true,
+      "securityScore": 90,
+      "createdAt": 1790758476838,
+      "fileIds": [
+        "file_1790758441573_b3V_RVx16pk"
+      ]
+    },
+    "share_1790758729153_5gnB3kUh3qY": {
+      "id": "share_1790758729153_5gnB3kUh3qY",
+      "secureShareId": "s-4LJzoOCXEZUrUoGrL-ew",
+      "ownerId": "usr_1790751208958_PjMn6NEFgBs",
+      "status": "ACTIVE",
+      "passwordHash": "pbkdf2$100000$85f224bb57e69deebb0a8f826bfbe767$63a7044370bb85f5ba5831c1487e54e52665af8443a5e5c04c4b90475dd1010331eb5a2c325411942c84fcac4cc5f426b0ae258772c82a01068c073748a271a5",
+      "maxDownloads": 5,
+      "downloadCount": 0,
+      "expiresAt": 1790762329221,
+      "requireOtp": false,
+      "otpHash": null,
+      "deviceBinding": false,
+      "downloadNotifications": true,
+      "suspiciousAccessDetection": true,
+      "securityScore": 90,
+      "createdAt": 1790758729221,
+      "fileIds": [
+        "file_1790758693123_DYBN8hGfIrQ"
+      ]
+    }
+  },
+  "shareSessions": {},
+  "downloadEvents": [
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "fileId": "file_1790758441573_b3V_RVx16pk",
+      "isZip": false,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "status": "BLOCKED_LIMIT",
+      "id": "dl_1790758530862_xbd0wv",
+      "downloadedAt": 1790758530862
+    },
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "fileId": "file_1790758441573_b3V_RVx16pk",
+      "isZip": false,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "status": "SUCCESS",
+      "id": "dl_1790758524075_memzal",
+      "downloadedAt": 1790758524075
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "fileId": "file_1790756249084_LElNmu0Azy4",
+      "isZip": false,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "status": "SUCCESS",
+      "id": "dl_1790756360213_280531",
+      "downloadedAt": 1790756360213
+    },
+    {
+      "shareId": "share_1790751983301_v-G6d33sXCQ",
+      "fileId": "file_1790751965050_MomR0xPKvYo",
+      "isZip": false,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "status": "SUCCESS",
+      "id": "dl_1790751998668_2r122a",
+      "downloadedAt": 1790751998668
+    },
+    {
+      "shareId": "share_1790750477142_MXqkxlXOUHk",
+      "fileId": "file_1790750434137_PJUQcKCt7wc",
+      "isZip": false,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "status": "SUCCESS",
+      "id": "dl_1790750520812_b8ri7y",
+      "downloadedAt": 1790750520812
+    },
+    {
+      "shareId": "share_demo_audit",
+      "fileId": "file_sample_q3_report",
+      "isZip": false,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "status": "SUCCESS",
+      "id": "dl_1790749771029_75uiri",
+      "downloadedAt": 1790749771029
+    }
+  ],
+  "securityEvents": [
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "eventType": "FILE_VIEWED",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "Share /s/s-4LJzoOCXEZUrUoGrL-ew accessed by authenticated receiver: Alice Receiver (receiver_demo@example.com)",
+      "id": "sec_1790759694876_4y33j6",
+      "timestamp": 1790759694876
+    },
+    {
+      "shareId": null,
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "User authenticated via Google Sign-In: receiver_demo@example.com. Cryptographically verified.",
+      "id": "sec_1790759667702_8olkpa",
+      "timestamp": 1790759667702
+    },
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "eventType": "PASSWORD_FAILED",
+      "success": false,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 75,
+      "details": "Incorrect password attempt. Remaining attempts before lockout: 0. Risk level: CRITICAL",
+      "id": "sec_1790758810603_f0onsn",
+      "timestamp": 1790758810603
+    },
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "eventType": "PASSWORD_FAILED",
+      "success": false,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 75,
+      "details": "Incorrect password attempt. Remaining attempts before lockout: 1. Risk level: CRITICAL",
+      "id": "sec_1790758799918_vhsd2b",
+      "timestamp": 1790758799918
+    },
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "eventType": "PASSWORD_FAILED",
+      "success": false,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 60,
+      "details": "Incorrect password attempt. Remaining attempts before lockout: 2. Risk level: HIGH",
+      "id": "sec_1790758798639_zdkli3",
+      "timestamp": 1790758798639
+    },
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "eventType": "PASSWORD_FAILED",
+      "success": false,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 45,
+      "details": "Incorrect password attempt. Remaining attempts before lockout: 3. Risk level: MEDIUM",
+      "id": "sec_1790758788965_zb7mw7",
+      "timestamp": 1790758788965
+    },
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "eventType": "PASSWORD_FAILED",
+      "success": false,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 30,
+      "details": "Incorrect password attempt. Remaining attempts before lockout: 4. Risk level: MEDIUM",
+      "id": "sec_1790758773560_fhepci",
+      "timestamp": 1790758773560
+    },
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 13 characters.",
+      "id": "sec_1790758764502_7nnawv",
+      "timestamp": 1790758764502
+    },
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Created secure share s-4LJzoOCXEZUrUoGrL-ew with 1 files. Password: true, Limit: 5, Score: 90%",
+      "id": "sec_1790758729221_aovlez",
+      "timestamp": 1790758729221
+    },
+    {
+      "shareId": null,
+      "eventType": "FILE_UPLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Encrypted file \"VaultX_Master_Build_Prompt_README.md\" (31098 bytes) with AES-256-GCM. SHA-256: 5e433323d802...",
+      "id": "sec_1790758693123_r7isbn",
+      "timestamp": 1790758693123
+    },
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 29 characters.",
+      "id": "sec_1790758660703_nr7w90",
+      "timestamp": 1790758660703
+    },
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by SENDER. Message length: 39 characters.",
+      "id": "sec_1790758654204_ngikgc",
+      "timestamp": 1790758654204
+    },
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "eventType": "FILE_DOWNLOADED",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "File \"rudeus-greyrat.gif\" successfully downloaded. AES-256-GCM authenticated. Remaining downloads: 0",
+      "id": "sec_1790758524075_op64af",
+      "timestamp": 1790758524075
+    },
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "eventType": "PASSWORD_SUCCESS",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "Correct share password provided. Cryptographically signed receiver session granted.",
+      "id": "sec_1790758520374_vu6hh3",
+      "timestamp": 1790758520374
+    },
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Created secure share Ljws2J_s5FNx5ElAwABRBQ with 1 files. Password: true, Limit: 1, Score: 90%",
+      "id": "sec_1790758476839_gr7729",
+      "timestamp": 1790758476839
+    },
+    {
+      "shareId": null,
+      "eventType": "FILE_UPLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Encrypted file \"rudeus-greyrat.gif\" (4619785 bytes) with AES-256-GCM. SHA-256: 3ec25dee8282...",
+      "id": "sec_1790758441574_t0c5lk",
+      "timestamp": 1790758441574
+    },
+    {
+      "shareId": null,
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "User authenticated via Google Sign-In: sbbharath81@gmail.com. Cryptographically verified.",
+      "id": "sec_1790756787046_6xxiaz",
+      "timestamp": 1790756787046
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "LINK_REVOKED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Owner immediately revoked share link V-24GAHG6ZyWZc6oVpzAUA. All future access attempts will be rejected.",
+      "id": "sec_1790756483534_38ykkx",
+      "timestamp": 1790756483534
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 3 characters.",
+      "id": "sec_1790756459410_yzig59",
+      "timestamp": 1790756459410
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by SENDER. Message length: 2 characters.",
+      "id": "sec_1790756455086_ea99il",
+      "timestamp": 1790756455086
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by SENDER. Message length: 35 characters.",
+      "id": "sec_1790756442080_xk9dot",
+      "timestamp": 1790756442080
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 43 characters.",
+      "id": "sec_1790756438277_os3v6m",
+      "timestamp": 1790756438277
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 29 characters.",
+      "id": "sec_1790756437175_z13xm5",
+      "timestamp": 1790756437175
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by SENDER. Message length: 3 characters.",
+      "id": "sec_1790756423688_19s6cl",
+      "timestamp": 1790756423688
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 2 characters.",
+      "id": "sec_1790756396178_yoxjbd",
+      "timestamp": 1790756396178
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "FILE_DOWNLOADED",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "File \"AA29Vp7J__1_.jpeg\" successfully downloaded. AES-256-GCM authenticated. Remaining downloads: 14",
+      "id": "sec_1790756360214_m8um9r",
+      "timestamp": 1790756360214
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "PASSWORD_SUCCESS",
+      "success": true,
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+      "riskScore": 0,
+      "details": "Correct share password provided. Cryptographically signed receiver session granted.",
+      "id": "sec_1790756347957_nn8e10",
+      "timestamp": 1790756347957
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Created secure share V-24GAHG6ZyWZc6oVpzAUA with 1 files. Password: true, Limit: 15, Score: 95%",
+      "id": "sec_1790756265430_2remmp",
+      "timestamp": 1790756265430
+    },
+    {
+      "shareId": null,
+      "eventType": "FILE_UPLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Encrypted file \"AA29Vp7J__1_.jpeg\" (65536 bytes) with AES-256-GCM. SHA-256: 129602d6abad...",
+      "id": "sec_1790756249085_r94ps5",
+      "timestamp": 1790756249085
+    },
+    {
+      "shareId": null,
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "User authenticated via Google Sign-In: sbbharath81@gmail.com. Cryptographically verified.",
+      "id": "sec_1790752170257_paijwv",
+      "timestamp": 1790752170257
+    },
+    {
+      "shareId": null,
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "User registered: aa@gmail.com. Verification email dispatched.",
+      "id": "sec_1790752145919_dc1qh0",
+      "timestamp": 1790752145919
+    },
+    {
+      "shareId": null,
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "User authenticated via Google Sign-In: sbbharath81@gmail.com. Cryptographically verified.",
+      "id": "sec_1790752077693_0ag6xw",
+      "timestamp": 1790752077693
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "LINK_REVOKED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Owner immediately revoked share link demo-vault-2026. All future access attempts will be rejected.",
+      "id": "sec_1790752066599_i91di4",
+      "timestamp": 1790752066599
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by SENDER. Message length: 3 characters.",
+      "id": "sec_1790752033343_u4dh2v",
+      "timestamp": 1790752033343
+    },
+    {
+      "shareId": "share_1790751983301_v-G6d33sXCQ",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 29 characters.",
+      "id": "sec_1790752006404_x93uwy",
+      "timestamp": 1790752006404
+    },
+    {
+      "shareId": "share_1790751983301_v-G6d33sXCQ",
+      "eventType": "FILE_DOWNLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "riskScore": 0,
+      "details": "File \"AA29Vp7J.jpeg\" successfully downloaded. AES-256-GCM authenticated. Remaining downloads: 0",
+      "id": "sec_1790751998668_keif6j",
+      "timestamp": 1790751998668
+    },
+    {
+      "shareId": "share_1790751983301_v-G6d33sXCQ",
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Created secure share ZKgPpEDbBunSXWdtAfC3dQ with 1 files. Password: false, Limit: 1, Score: 75%",
+      "id": "sec_1790751983302_4w69x5",
+      "timestamp": 1790751983302
+    },
+    {
+      "shareId": null,
+      "eventType": "FILE_UPLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Encrypted file \"AA29Vp7J.jpeg\" (65536 bytes) with AES-256-GCM. SHA-256: 129602d6abad...",
+      "id": "sec_1790751965051_qm57ex",
+      "timestamp": 1790751965051
+    },
+    {
+      "shareId": null,
+      "eventType": "FILE_UPLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Encrypted file \"AA29Vp7J.jpeg\" (65536 bytes) with AES-256-GCM. SHA-256: 129602d6abad...",
+      "id": "sec_1790751964739_m3ti4m",
+      "timestamp": 1790751964739
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 39 characters.",
+      "id": "sec_1790751790453_db3suc",
+      "timestamp": 1790751790453
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "Text message exchanged by SENDER. Message length: 32 characters.",
+      "id": "sec_1790751790435_e0ssgl",
+      "timestamp": 1790751790435
+    },
+    {
+      "shareId": null,
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "User authenticated via Google Sign-In: sbbharath81@gmail.com. Cryptographically verified.",
+      "id": "sec_1790751790389_z5sz5s",
+      "timestamp": 1790751790389
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 17 characters.",
+      "id": "sec_1790751538780_gmhqog",
+      "timestamp": 1790751538780
+    },
+    {
+      "shareId": null,
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "User registered: sbbharath81@gmail.com. Verification email dispatched.",
+      "id": "sec_1790751209025_1vpuvn",
+      "timestamp": 1790751209025
+    },
+    {
+      "shareId": null,
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "User registered: hello@gmail.com. Verification email dispatched.",
+      "id": "sec_1790751152870_ixgjt6",
+      "timestamp": 1790751152870
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Text message exchanged by SENDER. Message length: 3 characters.",
+      "id": "sec_1790750905369_zg5ti5",
+      "timestamp": 1790750905369
+    },
+    {
+      "shareId": "share_1790750661700_jWznOZ71V2w",
+      "eventType": "CHAT_MESSAGE_SENT",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "riskScore": 0,
+      "details": "Text message exchanged by RECEIVER. Message length: 2 characters.",
+      "id": "sec_1790750873312_iljxak",
+      "timestamp": 1790750873312
+    },
+    {
+      "shareId": "share_1790750661700_jWznOZ71V2w",
+      "eventType": "PASSWORD_SUCCESS",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "riskScore": 0,
+      "details": "Correct share password provided. Cryptographically signed receiver session granted.",
+      "id": "sec_1790750858942_gbynuz",
+      "timestamp": 1790750858942
+    },
+    {
+      "shareId": "share_1790750661700_jWznOZ71V2w",
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Created secure share te5VZ9_KO4QUcZ5kR4lAdg with 2 files. Password: true, Limit: 5, Score: 90%",
+      "id": "sec_1790750661767_jgq0o4",
+      "timestamp": 1790750661767
+    },
+    {
+      "shareId": null,
+      "eventType": "FILE_UPLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Encrypted file \"rudeus-greyrat.gif\" (4619785 bytes) with AES-256-GCM. SHA-256: 3ec25dee8282...",
+      "id": "sec_1790750623759_we1z04",
+      "timestamp": 1790750623759
+    },
+    {
+      "shareId": null,
+      "eventType": "FILE_UPLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Encrypted file \"AA29Vp7J.jpeg\" (65536 bytes) with AES-256-GCM. SHA-256: 129602d6abad...",
+      "id": "sec_1790750623712_er867g",
+      "timestamp": 1790750623712
+    },
+    {
+      "shareId": "share_1790750477142_MXqkxlXOUHk",
+      "eventType": "LINK_REVOKED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Owner immediately revoked share link wOOiQY0b2-WVk14lNpKkMg. All future access attempts will be rejected.",
+      "id": "sec_1790750544218_77s0lh",
+      "timestamp": 1790750544218
+    },
+    {
+      "shareId": "share_1790750477142_MXqkxlXOUHk",
+      "eventType": "FILE_DOWNLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "riskScore": 0,
+      "details": "File \"VaultX_Master_Build_Prompt_README.md\" successfully downloaded. AES-256-GCM authenticated. Remaining downloads: 0",
+      "id": "sec_1790750520812_5in2qw",
+      "timestamp": 1790750520812
+    },
+    {
+      "shareId": "share_1790750477142_MXqkxlXOUHk",
+      "eventType": "PASSWORD_SUCCESS",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "riskScore": 0,
+      "details": "Correct share password provided. Cryptographically signed receiver session granted.",
+      "id": "sec_1790750514869_lmersp",
+      "timestamp": 1790750514869
+    },
+    {
+      "shareId": "share_1790750477142_MXqkxlXOUHk",
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Created secure share wOOiQY0b2-WVk14lNpKkMg with 1 files. Password: true, Limit: 1, Score: 90%",
+      "id": "sec_1790750477205_0cb2ws",
+      "timestamp": 1790750477205
+    },
+    {
+      "shareId": null,
+      "eventType": "FILE_UPLOADED",
+      "success": true,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 0,
+      "details": "Encrypted file \"VaultX_Master_Build_Prompt_README.md\" (31098 bytes) with AES-256-GCM. SHA-256: 5e433323d802...",
+      "id": "sec_1790750434137_9xwllw",
+      "timestamp": 1790750434137
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "PASSWORD_FAILED",
+      "success": false,
+      "clientIp": "223.231.162.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "riskScore": 30,
+      "details": "Incorrect password attempt. Remaining attempts before lockout: 4. Risk level: MEDIUM",
+      "id": "sec_1790750384806_v38aai",
+      "timestamp": 1790750384806
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "FILE_DOWNLOADED",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "File \"Confidential_Audit_Report.pdf\" successfully downloaded. AES-256-GCM authenticated. Remaining downloads: 11",
+      "id": "sec_1790749771029_044gp3",
+      "timestamp": 1790749771029
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "PASSWORD_SUCCESS",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "Correct share password provided. Cryptographically signed receiver session granted.",
+      "id": "sec_1790749771007_exl9al",
+      "timestamp": 1790749771007
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "PASSWORD_SUCCESS",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 0,
+      "details": "Correct share password provided. Cryptographically signed receiver session granted.",
+      "id": "sec_1790749762213_38az7a",
+      "timestamp": 1790749762213
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "PASSWORD_FAILED",
+      "success": false,
+      "clientIp": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "riskScore": 30,
+      "details": "Incorrect password attempt. Remaining attempts before lockout: 4. Risk level: MEDIUM",
+      "id": "sec_1790749752967_37nciz",
+      "timestamp": 1790749752967
+    },
+    {
+      "shareId": "share_demo_audit",
+      "eventType": "SHARE_CREATED",
+      "success": true,
+      "clientIp": "127.0.0.1",
+      "userAgent": "VaultX System Initializer",
+      "riskScore": 0,
+      "details": "Initialized demo share link: /s/demo-vault-2026 with AES-256-GCM encrypted payload.",
+      "id": "sec_1790749722185_nzjnno",
+      "timestamp": 1790749722185
+    }
+  ],
+  "passwordAttempts": {
+    "share_demo_audit:223.231.162.244": {
+      "shareId": "share_demo_audit",
+      "clientIp": "223.231.162.244",
+      "failedCount": 1,
+      "lockedUntil": 0
+    },
+    "share_1790758729153_5gnB3kUh3qY:2409:40f2:310c:1183:8000::": {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "clientIp": "2409:40f2:310c:1183:8000::",
+      "failedCount": 5,
+      "lockedUntil": 1790759710602
+    }
+  },
+  "chatMessages": [
+    {
+      "shareId": "share_demo_audit",
+      "senderType": "SENDER",
+      "senderName": "Security Lead",
+      "text": "Welcome to VaultX! Please review the audit report and let me know if you need any adjustments.",
+      "id": "msg_1790749722185_n7xm27",
+      "timestamp": 1790749722185
+    },
+    {
+      "shareId": "share_1790750661700_jWznOZ71V2w",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "hi",
+      "id": "msg_1790750873312_06pxf7",
+      "timestamp": 1790750873312
+    },
+    {
+      "shareId": "share_demo_audit",
+      "senderType": "SENDER",
+      "senderName": "Owner / Sender",
+      "text": "hey",
+      "id": "msg_1790750905369_zc60gl",
+      "timestamp": 1790750905369
+    },
+    {
+      "shareId": "share_demo_audit",
+      "senderType": "RECEIVER",
+      "senderName": "Client Receiver",
+      "text": "Hello from client",
+      "id": "msg_1790751538780_95gk50",
+      "timestamp": 1790751538780
+    },
+    {
+      "shareId": "share_demo_audit",
+      "senderType": "SENDER",
+      "senderName": "Owner / Sender",
+      "text": "Owner: Can you access the files?",
+      "id": "msg_1790751790435_fznegf",
+      "timestamp": 1790751790435
+    },
+    {
+      "shareId": "share_demo_audit",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "Client: Yes, files decrypted perfectly!",
+      "id": "msg_1790751790453_niaulr",
+      "timestamp": 1790751790453
+    },
+    {
+      "shareId": "share_1790751983301_v-G6d33sXCQ",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "Files decrypted and verified.",
+      "id": "msg_1790752006404_54gay7",
+      "timestamp": 1790752006404
+    },
+    {
+      "shareId": "share_demo_audit",
+      "senderType": "SENDER",
+      "senderName": "Owner / Sender",
+      "text": "hey",
+      "id": "msg_1790752033343_4ue03b",
+      "timestamp": 1790752033343
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "Hi",
+      "id": "msg_1790756396177_ztzwwv",
+      "timestamp": 1790756396177
+    },
+    {
+      "shareId": "share_demo_audit",
+      "senderType": "SENDER",
+      "senderName": "Owner / Sender",
+      "text": "hey",
+      "id": "msg_1790756423687_v1nio6",
+      "timestamp": 1790756423687
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "Files decrypted and verified.",
+      "id": "msg_1790756437175_w58iej",
+      "timestamp": 1790756437175
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "Everything downloaded successfully, thanks!",
+      "id": "msg_1790756438276_lpns2x",
+      "timestamp": 1790756438276
+    },
+    {
+      "shareId": "share_demo_audit",
+      "senderType": "SENDER",
+      "senderName": "Owner / Sender",
+      "text": "I have uploaded an updated version.",
+      "id": "msg_1790756442080_xbuqez",
+      "timestamp": 1790756442080
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "senderType": "SENDER",
+      "senderName": "Owner / Sender",
+      "text": "hi",
+      "id": "msg_1790756455085_ile7z9",
+      "timestamp": 1790756455085
+    },
+    {
+      "shareId": "share_1790756265367_gImpQKrhtwo",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "Hey",
+      "id": "msg_1790756459409_z5s9ut",
+      "timestamp": 1790756459409
+    },
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "senderType": "SENDER",
+      "senderName": "Owner / Sender",
+      "text": "Please verify all files open correctly.",
+      "id": "msg_1790758654203_amevsh",
+      "timestamp": 1790758654203
+    },
+    {
+      "shareId": "share_1790758476775_geiEjSacxGw",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "Files decrypted and verified.",
+      "id": "msg_1790758660702_suvs6u",
+      "timestamp": 1790758660702
+    },
+    {
+      "shareId": "share_1790758729153_5gnB3kUh3qY",
+      "senderType": "RECEIVER",
+      "senderName": "Receiver (Client)",
+      "text": "Give me. Pass",
+      "id": "msg_1790758764501_k607mi",
+      "timestamp": 1790758764501
+    }
+  ],
+  "receiverAccesses": {
+    "share_1790758729153_5gnB3kUh3qY": [
+      {
+        "userId": "usr_g_1790759667637_AQ4Tgz2D",
+        "userName": "Alice Receiver",
+        "userEmail": "receiver_demo@example.com",
+        "firstAccessedAt": 1790759694876,
+        "lastAccessedAt": 1790759694876,
+        "accessCount": 1,
+        "downloadCount": 0,
+        "clientIp": "127.0.0.1",
+        "userAgent": "curl/7.88.1"
+      }
+    ]
+  }
+}

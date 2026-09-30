@@ -1,0 +1,6 @@
+{
+  "name": "VaultX — Secure Zero-Trust File Sharing",
+  "description": "Encrypted, controlled, expiring zero-trust file sharing platform with AES-256-GCM encryption, server-enforced download limits, activity auditing, and instant revocation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

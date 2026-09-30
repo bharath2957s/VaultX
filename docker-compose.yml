@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: vaultx-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: vaultx
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: vaultx_secure_pg_password_2026
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: vaultx-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://postgres:vaultx_secure_pg_password_2026@postgres:5432/vaultx
+      JWT_SECRET: vaultx-super-secure-jwt-64b-cryptographic-secret
+      MASTER_ENCRYPTION_KEY: 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+      STORAGE_PATH: /app/storage
+      FRONTEND_URL: http://localhost:3000
+    volumes:
+      - vaultx_storage:/app/storage
+    ports:
+      - "8000:8000"
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vaultx-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      NODE_ENV: production
+      STORAGE_PATH: ./storage
+    volumes:
+      - vaultx_storage:/app/storage
+
+volumes:
+  pgdata:
+  vaultx_storage:
